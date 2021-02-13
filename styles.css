@@ -1,0 +1,39 @@
+.product{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-top: 100px;
+ padding-bottom: 100px;
+}
+
+.img{
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.add-cart{
+
+    position: absolute;
+    width: 100%;
+    background-color: rgb(151, 138, 138);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0,3 ease-in-out;
+    opacity: 0;
+    margin-bottom: 50px;
+
+}
+
+.img:hover .cart1,
+.img:hover .cart2,
+.img:hover .cart3,
+.img:hover .cart4{
+
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
